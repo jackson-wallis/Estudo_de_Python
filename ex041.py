@@ -8,7 +8,7 @@ import time # Aqui eu importei a biblioteca para usar a função time.sleep(), p
 print('-=' * 10)
 print('Contagem regressiva para os fogos de artifícios')
 print('-=' * 10)
-for c in range(10, 0, -1): # O (-1) dentro do () significa que a contagem é ordem regressiva
+for c in range(10, 0, -1): # O (-1) dentro do () significa que a contagem é em ordem regressiva
     print(c)
     time.sleep(1)
 print('BOOM, BOOM, POWW')
